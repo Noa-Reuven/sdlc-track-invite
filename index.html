@@ -270,14 +270,20 @@
       position: relative;
       flex: 1 1 0;
       min-width: 0;
+      height: 2.35rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       text-align: center;
-      font-size: 0.7rem;
+      font-size: 0.62rem;
       font-weight: 700;
-      line-height: 1.2;
-      padding: 0.5rem 0.35rem;
+      line-height: 1.1;
+      padding: 0 0.25rem;
       color: var(--ink);
       background: #fff;
       border: 1.5px solid var(--ink);
+      white-space: nowrap;
+      overflow: hidden;
     }
 
     .steps li:first-child {
@@ -609,7 +615,7 @@
                   <li>Requirements</li>
                   <li>Planning</li>
                   <li>Breakdown</li>
-                  <li>Low-level plan</li>
+                  <li>Low-level</li>
                   <li>Developer</li>
                   <li>Reviewer</li>
                 </ol>
@@ -618,7 +624,7 @@
                 <div class="lane-label task">Task</div>
                 <ol class="steps steps-task">
                   <li class="skip"><span>skips ahead</span></li>
-                  <li>Low-level plan</li>
+                  <li>Low-level</li>
                   <li>Developer</li>
                   <li>Reviewer</li>
                 </ol>
